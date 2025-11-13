@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 46: Debt Payoff Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/recharts@2.12.7/umd/Recharts.min.js"></script>
+    <!-- Babel for JSX and TS transpilation -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+      @keyframes move-background {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      .animated-galaxy-bg {
+        background: linear-gradient(-45deg, #0f0c29, #302b63, #24243e, #0f0c29, #4a00e0, #8e2de2);
+        background-size: 400% 400%;
+        animation: move-background 30s ease infinite;
+      }
+      /* Simple fade-in animation */
+      @keyframes fade-in {
+          from { opacity: 0; transform: translateY(10px); }
+          to { opacity: 1; transform: translateY(0); }
+      }
+      .animate-fade-in {
+          animation: fade-in 0.5s ease-out forwards;
+      }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <!-- 
+      - type="text/babel" tells Babel to transpile this script.
+      - data-presets tells Babel how to transpile (for React and TypeScript).
+      - src points to our main entry file with its .tsx extension.
+    -->
+    <script type="text/babel" data-presets="react,typescript" src="/index.tsx"></script>
+  </body>
+</html>

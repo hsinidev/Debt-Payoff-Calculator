@@ -1,0 +1,5 @@
+{
+  "name": "Project 46: Debt Payoff Calculator",
+  "description": "An advanced financial planning tool to calculate and compare debt payoff strategies. This application helps users visualize their path to becoming debt-free using the Snowball and Avalanche methods, providing a clear payoff date and total interest saved.",
+  "requestFramePermissions": []
+}
