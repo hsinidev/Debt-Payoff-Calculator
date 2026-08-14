@@ -1,18 +1,22 @@
 <div align="center">
-# 🚀 Debt Payoff Calculator
-### *Modern, High-Performance JavaScript Solution & Developer Suite*
 
-<p align="center">
-  [![Architect](https://img.shields.io/badge/Architect-Hsini%20Mohamed-0055ff?style=for-the-badge&logo=github&logoColor=white)](https://hsini.dev)
-  [![Portfolio](https://img.shields.io/badge/Portfolio-hsini.dev-00c853?style=for-the-badge&logo=google-chrome&logoColor=white)](https://hsini.dev)
-  [![Language](https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge)](https://github.com/hsinidev)
-  [![Framework](https://img.shields.io/badge/Framework-JavaScript-6366f1?style=for-the-badge)](https://github.com/hsinidev)
-  [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-</p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=180&section=header&text=Debt%20Payoff%20Calculator&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=38" width="100%" style="max-width: 100%; border-radius: 12px; margin-bottom: 20px;" alt="Debt Payoff Calculator Header Banner" />
+
+  <h1>🚀 Debt Payoff Calculator</h1>
+  <p><em>Modern, High-Performance JavaScript Solution & Developer Suite</em></p>
+
+  <p align="center">
+    <a href="https://hsini.dev"><img src="https://img.shields.io/badge/Architect-Hsini%20Mohamed-0055ff?style=for-the-badge&logo=github&logoColor=white" alt="Architect: Hsini Mohamed" /></a>
+    <a href="https://hsini.dev"><img src="https://img.shields.io/badge/Portfolio-hsini.dev-00c853?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio: hsini.dev" /></a>
+    <a href="https://github.com/hsinidev"><img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge" alt="Language: TypeScript" /></a>
+    <a href="https://github.com/hsinidev"><img src="https://img.shields.io/badge/Framework-JavaScript-6366f1?style=for-the-badge" alt="Framework: JavaScript" /></a>
+    <a href="https://github.com/hsinidev/Debt-Payoff-Calculator"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License: MIT" /></a>
+  </p>
 
 </div>
 
 ---
+
 ## 🌟 Executive Overview
 
 **Debt Payoff Calculator** is a production-grade **TypeScript** platform engineered for high reliability, clean architectural separation, and frictionless developer workflow.
@@ -25,6 +29,7 @@
 - **Production Ready**: Built-in error resilience, validation, and structured logging.
 
 ---
+
 ## 🏗️ Architecture & Technology Stack
 
 - **Primary Language**: `TypeScript`
@@ -32,74 +37,6 @@
 - **Design Pattern**: Modular Clean Architecture / Domain-Driven Design
 - **License**: MIT Open Source Attribution
 
-## 📖 Deep-Dive Technical Documentation
-
-# Project 46: Debt Payoff Calculator
-
-This is a modern, responsive ReactJS application designed to help users create a strategy for paying off their debts. It compares two popular methods: the Debt Snowball and the Debt Avalanche, providing clear visualizations and summaries to empower users to make informed financial decisions.
-
-## Features
-
-- **Dynamic Debt Management**: Add, edit, and remove multiple debt accounts (credit cards, loans, etc.).
-- **Dual Strategy Comparison**: Instantly calculates and compares the **Debt Snowball** (paying off smallest balances first) and **Debt Avalanche** (paying off highest interest rates first) methods.
-- **Detailed Projections**: Shows the debt-free date and total interest paid for each strategy.
-- **Visual Analysis**: A comparative chart visualizes the debt reduction over time for both strategies.
-- **Extra Payment Simulation**: Factor in extra monthly payments to see how it accelerates debt freedom.
-- **Stunning UI/UX**: A clean, financial dashboard interface with an animated galaxy background.
-- **Fully Responsive**: Optimized for a seamless experience on desktops, tablets, and mobile devices.
-- **SEO Optimized**: Includes a comprehensive article on debt management strategies with structured data for search engines.
-
-## Architecture
-
-- **Frontend**: ReactJS 18+ (Functional Components & Hooks) with TypeScript.
-- **Styling**: Tailwind CSS for a utility-first, responsive design.
-- **Charting**: Recharts for data visualization.
-- **Core Logic**: All financial calculations are handled by pure, dependency-free TypeScript functions in `src/utils/DebtMath.ts`. This ensures accuracy and maintainability.
-
-## File Structure
-
-- `public/`: Contains the main `index.html`, static assets like `favicon.svg`, `robots.txt`, and `sitemap.xml`.
-- `src/`: The main application source code.
-  - `index.tsx`: The application entry point.
-  - `App.tsx`: The root component that assembles the layout and views.
-  - `types.ts`: Defines shared TypeScript types and interfaces.
-  - `components/`:
-    - `ThemeLayout.tsx`: Provides the overall page structure, including the animated background, header, footer, and modals.
-    - `DebtCalculatorTool.tsx`: The main interactive calculator component.
-  - `utils/`:
-    - `DebtMath.ts`: Contains all the core financial calculation logic for amortization and payoff strategies.
-    - `SeoArticle.tsx`: A component containing a 3500+ word article on debt management for SEO purposes.
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js and npm (or yarn) installed.
-
-### Installation & Running
-
-1. **Clone the repository:**
-   ```bash
-   git clone <repository-url>
-   cd debt-payoff-calculator
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-3. **Start the development server:**
-   ```bash
-   npm start
-   ```
-   The application will be available at `http://localhost:3000`.
-
-## Branding
-
-The footer proudly displays "Powered by HSINI MOHAMED" in gold, linking to the creator's GitHub profile.
-
----
 ## 🚀 Quick Start & Installation
 
 ### 1. Clone the Repository
